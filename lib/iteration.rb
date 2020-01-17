@@ -10,7 +10,7 @@ def join_ingredients(src)
   newArr = []
   while i < src.length do 
     newArr.push("I love #{src[i][0]} and #{src[i][1]} on my pizza")
-    i++
+    i+=1
   end
   newArr
 end
